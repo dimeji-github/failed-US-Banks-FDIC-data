@@ -9,7 +9,7 @@ The dataset is sourced from kaggle. As stated by Kaggle, the data was obtained f
 ## Insights Examined
 In this project, I use SQL queries to extract meaningful information from the dataset. Some examples of queries that was performed include:
 
-Retrieved the top states with the highest number of failed banks.
+Retrieved the total number of failed banks in each state.
 Identified top 10 acquiring institutions to have taken over most of the failed banks.
 Calculated the average estimated loss of failed banks.
 Analyzed the distribution of failed banks on a yearly basis since 2000.
