@@ -1,7 +1,7 @@
 # Failed US Banks FDIC Data
 
 ## Description
-This project focuses on using SQL queries to analyze data related failed banks in the United States. The dataset includes key details about each failing bank, such as the bank's name, state, city, acquiring institution, closing date, estimated loss, total assets, and total deposits. This analysis enables us to gain insights on some important factors contributing to bank failures.
+This project focuses on using SQL queries to analyze data related to failed banks in the United States. The dataset includes key details about each failing bank, such as the bank's name, state, city, acquiring institution, closing date, estimated loss, total assets, and total deposits. This analysis enables us to gain insights on some important factors contributing to bank failures.
 
 ## Dataset
 The dataset is sourced from kaggle. As stated by Kaggle, the data was obtained from FDIC bank records API and the FDIC Bank List. The data covers a range from October 1, 2020, to July 25, 2023.
