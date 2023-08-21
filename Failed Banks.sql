@@ -6,7 +6,7 @@ from failed_bank_dataset_2;
 
 
 -- Check for bank names that have duplicate
-select bank_name, COUNT(bank_name) as duplicate_count
+select bank_name, count(bank_name) as duplicate_count
 from failed_bank_dataset_2
 group by bank_name
 having duplicate_count > 1;
