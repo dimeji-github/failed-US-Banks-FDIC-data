@@ -5,6 +5,18 @@ select *
 from failed_bank_dataset_2;
 
 
+-- Check for bank names that have duplicate
+select bank_name, COUNT(bank_name) as duplicate_count
+from failed_bank_dataset_2
+group by bank_name
+having duplicate_count > 1;
+
+
+-- Count of distinct bank names in the dataset
+select count(distinct bank_name) as distinct_bank_count
+from failed_bank_dataset_2;
+
+
 -- Total number of failed banks in the dataset
 select count(*)
 from failed_bank_dataset_2;
